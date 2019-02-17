@@ -1,0 +1,63 @@
+[2019-02-17 17:16:49,112] ERROR {org.ballerinax.kubernetes.KubernetesPlugin} - package [.] Unable to connect to server: connection refused to docker host 
+org.ballerinax.kubernetes.exceptions.KubernetesPluginException: Unable to connect to server: connection refused to docker host
+	at org.ballerinax.kubernetes.handlers.DockerHandler.createArtifacts(DockerHandler.java:50)
+	at org.ballerinax.kubernetes.ArtifactManager.createArtifacts(ArtifactManager.java:80)
+	at org.ballerinax.kubernetes.KubernetesPlugin.codeGenerated(KubernetesPlugin.java:152)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.lambda$writeExecutableBinary$0(BinaryFileWriter.java:121)
+	at java.lang.Iterable.forEach(Unknown Source)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeExecutableBinary(BinaryFileWriter.java:120)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:95)
+	at org.wso2.ballerinalang.compiler.Compiler.write(Compiler.java:117)
+	at org.ballerinalang.packerina.BuilderUtils.compileWithTestsAndWrite(BuilderUtils.java:81)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:177)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at org.ballerinalang.launcher.Main.main(Main.java:67)
+Caused by: org.ballerinax.docker.generator.exceptions.DockerGenException: Unable to connect to server: connection refused to docker host
+	at org.ballerinax.docker.generator.DockerArtifactHandler.handleError(DockerArtifactHandler.java:163)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.buildImage(DockerArtifactHandler.java:158)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.createArtifacts(DockerArtifactHandler.java:97)
+	at org.ballerinax.kubernetes.handlers.DockerHandler.createArtifacts(DockerHandler.java:47)
+	... 11 more
+ 
+[2019-02-17 17:18:28,925] ERROR {org.ballerinax.kubernetes.KubernetesPlugin} - package [.] Unable to connect to server: connection refused to docker host 
+org.ballerinax.kubernetes.exceptions.KubernetesPluginException: Unable to connect to server: connection refused to docker host
+	at org.ballerinax.kubernetes.handlers.DockerHandler.createArtifacts(DockerHandler.java:50)
+	at org.ballerinax.kubernetes.ArtifactManager.createArtifacts(ArtifactManager.java:80)
+	at org.ballerinax.kubernetes.KubernetesPlugin.codeGenerated(KubernetesPlugin.java:152)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.lambda$writeExecutableBinary$0(BinaryFileWriter.java:121)
+	at java.lang.Iterable.forEach(Unknown Source)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeExecutableBinary(BinaryFileWriter.java:120)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:95)
+	at org.wso2.ballerinalang.compiler.Compiler.write(Compiler.java:117)
+	at org.ballerinalang.packerina.BuilderUtils.compileWithTestsAndWrite(BuilderUtils.java:81)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:177)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at org.ballerinalang.launcher.Main.main(Main.java:67)
+Caused by: org.ballerinax.docker.generator.exceptions.DockerGenException: Unable to connect to server: connection refused to docker host
+	at org.ballerinax.docker.generator.DockerArtifactHandler.handleError(DockerArtifactHandler.java:163)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.buildImage(DockerArtifactHandler.java:158)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.createArtifacts(DockerArtifactHandler.java:97)
+	at org.ballerinax.kubernetes.handlers.DockerHandler.createArtifacts(DockerHandler.java:47)
+	... 11 more
+ 
+[2019-02-17 17:44:36,878] ERROR {org.ballerinax.kubernetes.KubernetesPlugin} - package [.] Unable to connect to server: connection refused to docker host 
+org.ballerinax.kubernetes.exceptions.KubernetesPluginException: Unable to connect to server: connection refused to docker host
+	at org.ballerinax.kubernetes.handlers.DockerHandler.createArtifacts(DockerHandler.java:50)
+	at org.ballerinax.kubernetes.ArtifactManager.createArtifacts(ArtifactManager.java:80)
+	at org.ballerinax.kubernetes.KubernetesPlugin.codeGenerated(KubernetesPlugin.java:152)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.lambda$writeExecutableBinary$0(BinaryFileWriter.java:121)
+	at java.lang.Iterable.forEach(Unknown Source)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.writeExecutableBinary(BinaryFileWriter.java:120)
+	at org.wso2.ballerinalang.compiler.BinaryFileWriter.write(BinaryFileWriter.java:95)
+	at org.wso2.ballerinalang.compiler.Compiler.write(Compiler.java:117)
+	at org.ballerinalang.packerina.BuilderUtils.compileWithTestsAndWrite(BuilderUtils.java:81)
+	at org.ballerinalang.packerina.cmd.BuildCommand.execute(BuildCommand.java:177)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at org.ballerinalang.launcher.Main.main(Main.java:67)
+Caused by: org.ballerinax.docker.generator.exceptions.DockerGenException: Unable to connect to server: connection refused to docker host
+	at org.ballerinax.docker.generator.DockerArtifactHandler.handleError(DockerArtifactHandler.java:163)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.buildImage(DockerArtifactHandler.java:158)
+	at org.ballerinax.docker.generator.DockerArtifactHandler.createArtifacts(DockerArtifactHandler.java:97)
+	at org.ballerinax.kubernetes.handlers.DockerHandler.createArtifacts(DockerHandler.java:47)
+	... 11 more
+ 
